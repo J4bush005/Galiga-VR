@@ -5,7 +5,7 @@ using UnityEngine;
 public class OutOfBounds : MonoBehaviour
 {
     private float topBound = 300;
-    private float lowerBound = -90;
+    private float lowerBound = -400;
     // Start is called before the first frame update
     void Start()
     {
