@@ -5,15 +5,16 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ShootGun : MonoBehaviour
 {
-    public GameObject bulletPrefab;
-    public Transform spawnPoint;
-    public float fireSpeed = 20;
+    public GameObject gun;
+    public GameObject Laser;
+    public Transform barrelLocation;
+    public float shootPower;
+
     //public ActionBasedController controller; // The XR controller for the Oculus controller
 
     void Start()
     {
-       XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
-       grabbable.activated.AddListener(FireBullet);
+
     }
 
     // Update is called once per frame
@@ -22,13 +23,10 @@ public class ShootGun : MonoBehaviour
        
     }
 
-    public void FireBullet(ActivateEventArgs arg)
+    public void FireBullet()
     {
-        GameObject spawnedBullet = Instantiate(bulletPrefab);
-        spawnedBullet.transform.position = spawnPoint.position;
-        spawnedBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * fireSpeed;
-        transform.Translate(Vector3.forward * Time.deltaTime * fireSpeed);
-        Destroy(spawnedBullet, 5);
+        Instantiate(Laser, barrelLocation.position, barrelLocation.rotation * Quaternion.Euler(90f, 0f, 0f)).GetComponent<Rigidbody>().AddForce(barrelLocation.forward * shootPower);
+ 
     }
 
 

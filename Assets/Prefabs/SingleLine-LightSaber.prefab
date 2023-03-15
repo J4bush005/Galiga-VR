@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1097451556290002715}
   - component: {fileID: 1097451556279686641}
   - component: {fileID: -2799415813774708977}
+  - component: {fileID: -6411780575950181754}
+  - component: {fileID: 3826180573536697202}
   m_Layer: 0
   m_Name: SingleLine-LightSaber
   m_TagString: Untagged
@@ -120,3 +122,31 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-6411780575950181754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097451556291138031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa36d6fc60c38d348be8c249efc276a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 12
+--- !u!114 &3826180573536697202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097451556291138031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9446de3734fde8c4a8e6fa9bb6482c91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1097451556291138031}
+  spawnPoint: {fileID: 0}
+  fireSpeed: 20
