@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5854122337971135686}
   - component: {fileID: -9087995449066631432}
   - component: {fileID: 1436392571124430132}
+  - component: {fileID: 412009902125558037}
+  - component: {fileID: 8694673374393392272}
   m_Layer: 0
   m_Name: StarSparrow12
   m_TagString: Untagged
@@ -68,6 +70,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 338f64f04c52127469d9a50f5f5ac9e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &412009902125558037
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5851560964552817408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.9334188, y: 3.076933, z: 15.055077}
+  m_Center: {x: -0.07466817, y: 0.0013875961, z: -0.57520676}
+--- !u!114 &8694673374393392272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5851560964552817408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2945451703bff5f42a168b06b166ab10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lives: 3
 --- !u!1001 &2520232211880368
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -31,9 +31,9 @@ public class MovePlayer : MonoBehaviour
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
         horizontalInput = Input.GetAxis("Horizontal");
-        //forwardInput = Input.GetAxis("Forward");
+        forwardInput = Input.GetAxis("Rotational");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
-        //transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        transform.Translate(Vector3.forward * forwardInput * Time.deltaTime * speed);
        
     }
 }
