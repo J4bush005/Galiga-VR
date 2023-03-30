@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Moon Level.unity
     guid: cfc0e6a5a76a4f74bac2cb4d861854dd
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: 4455ce1dfd868af468378827ac12c351
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f31d753bf87904c4c89b87426f7c70eb, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 46fe04953c19c35479054fba2fb54ca5, type: 2}

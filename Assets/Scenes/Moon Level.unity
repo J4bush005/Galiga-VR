@@ -7701,7 +7701,7 @@ PrefabInstance:
     - target: {fileID: 5326535042660244467, guid: 5ce75d82e204d6048918088b404d8633, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 86566763}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce75d82e204d6048918088b404d8633, type: 3}
 --- !u!4 &241144758 stripped
@@ -9251,7 +9251,7 @@ PrefabInstance:
     - target: {fileID: -3893593637366442431, guid: 90338a544d1e97b4f8216fcfc573a878, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 86566763}
+      objectReference: {fileID: 0}
     - target: {fileID: 6247408111028062905, guid: 90338a544d1e97b4f8216fcfc573a878, type: 3}
       propertyPath: m_Name
       value: StarSparrow8
@@ -9594,84 +9594,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8b7deb033496ee34593de752ac2b2bd4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7ffbb7115084fb45a4f02bdfba17d98, type: 3}
---- !u!21 &298533710
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SingleLine-LightSaber(Clone)
-  m_Shader: {fileID: 4800000, guid: 2d9a4ca4b2730b64e8aade7030f8caeb, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _Glossiness: 0.5
-    - _LightSaberFactor: 0.8
-    - _LineScale: 0.007000003
-    - _LineWidth: 20
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _UvBasedLightSaberFactor: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &298561867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11648,7 +11570,7 @@ PrefabInstance:
     - target: {fileID: 4693916260791512689, guid: 897c12c08e523dd42bcd9664ae1b68d9, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 86566763}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 897c12c08e523dd42bcd9664ae1b68d9, type: 3}
 --- !u!4 &352603399 stripped
@@ -26470,7 +26392,7 @@ PrefabInstance:
     - target: {fileID: 9000907225342479050, guid: 158fa214874762e4db2431b0675f2c44, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 86566763}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 158fa214874762e4db2431b0675f2c44, type: 3}
 --- !u!1001 &797793121
@@ -39906,7 +39828,7 @@ PrefabInstance:
     - target: {fileID: 5897833487157989255, guid: f1939f250ad169c4c9ee75dbd6bbd07e, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 86566763}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1939f250ad169c4c9ee75dbd6bbd07e, type: 3}
 --- !u!4 &1043181250 stripped
@@ -40542,6 +40464,84 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8b7deb033496ee34593de752ac2b2bd4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7ffbb7115084fb45a4f02bdfba17d98, type: 3}
+--- !u!21 &1059642060
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SingleLine-LightSaber(Clone)
+  m_Shader: {fileID: 4800000, guid: 2d9a4ca4b2730b64e8aade7030f8caeb, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Glossiness: 0.5
+    - _LightSaberFactor: 0.8
+    - _LineScale: 0.007000003
+    - _LineWidth: 20
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _UvBasedLightSaberFactor: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!4 &1059827550 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4069132276437046, guid: b7ffbb7115084fb45a4f02bdfba17d98, type: 3}
@@ -40582,7 +40582,7 @@ PrefabInstance:
     - target: {fileID: 4040004295385253426, guid: 0b931031ae89f9d489cc6fc7b18f28a8, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 86566763}
+      objectReference: {fileID: 0}
     - target: {fileID: 6542843867082555177, guid: 0b931031ae89f9d489cc6fc7b18f28a8, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -57440,8 +57440,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shipPrefabs:
   - {fileID: 1144792646648822058, guid: 158fa214874762e4db2431b0675f2c44, type: 3}
+  - {fileID: 1384146452426062500, guid: 5ce75d82e204d6048918088b404d8633, type: 3}
+  - {fileID: 6247408111028062905, guid: 90338a544d1e97b4f8216fcfc573a878, type: 3}
+  - {fileID: 4912893558794296228, guid: d67a5d54d5379df48aaa9e1e57feba86, type: 3}
+  - {fileID: 1179939069536005015, guid: f1939f250ad169c4c9ee75dbd6bbd07e, type: 3}
+  - {fileID: 5851560964552817408, guid: 6a7fe7782d376454d87b3a0b9e1d8516, type: 3}
+  - {fileID: 6542843867082555178, guid: 0b931031ae89f9d489cc6fc7b18f28a8, type: 3}
+  - {fileID: 2431547204645462490, guid: f2f5df997e6531d489d15df20e94cdc9, type: 3}
+  - {fileID: 2719444328764221666, guid: 897c12c08e523dd42bcd9664ae1b68d9, type: 3}
+  - {fileID: 5706261605459143718, guid: 0fbcf048acf530e46a5ee63fc7cea0a0, type: 3}
+  - {fileID: 1952065904527092855, guid: c3fb93ff3f353524ca361387248e0598, type: 3}
   spawnTimer: 0
-  spawnDelay: 1
+  spawnDelay: 2
 --- !u!4 &1564070587
 Transform:
   m_ObjectHideFlags: 0
@@ -59383,84 +59393,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4609898062307434, guid: 894d733c5aa18d14aa4ecb1c2f996b4d, type: 3}
   m_PrefabInstance: {fileID: 730535302}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1623093234
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SingleLine-LightSaber(Clone)
-  m_Shader: {fileID: 4800000, guid: 2d9a4ca4b2730b64e8aade7030f8caeb, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _Glossiness: 0.5
-    - _LightSaberFactor: 0.8
-    - _LineScale: 0.007000003
-    - _LineWidth: 20
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _UvBasedLightSaberFactor: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
 --- !u!4 &1625552112 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4578803203611948, guid: fcbf43d9566935b41b5fc06d0abb2a7d, type: 3}
@@ -59599,7 +59531,7 @@ PrefabInstance:
     - target: {fileID: 4746132205043618705, guid: d67a5d54d5379df48aaa9e1e57feba86, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 86566763}
+      objectReference: {fileID: 0}
     - target: {fileID: 4912893558794296228, guid: d67a5d54d5379df48aaa9e1e57feba86, type: 3}
       propertyPath: m_Name
       value: StarSparrow11
@@ -61174,6 +61106,84 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcbf43d9566935b41b5fc06d0abb2a7d, type: 3}
+--- !u!21 &1688252103
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SingleLine-LightSaber(Clone)
+  m_Shader: {fileID: 4800000, guid: 2d9a4ca4b2730b64e8aade7030f8caeb, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Glossiness: 0.5
+    - _LightSaberFactor: 0.8
+    - _LineScale: 0.007000003
+    - _LineWidth: 20
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _UvBasedLightSaberFactor: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!4 &1689698753 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4826723984597176, guid: 41636dbbab06966449e706a8db82b3cc, type: 3}
@@ -65825,7 +65835,7 @@ PrefabInstance:
     - target: {fileID: 5086224172463214367, guid: f2f5df997e6531d489d15df20e94cdc9, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 86566763}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f5df997e6531d489d15df20e94cdc9, type: 3}
 --- !u!1001 &1829940885
@@ -68085,7 +68095,7 @@ PrefabInstance:
     - target: {fileID: -1493653497324078195, guid: 0fbcf048acf530e46a5ee63fc7cea0a0, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 86566763}
+      objectReference: {fileID: 0}
     - target: {fileID: 5706261605459143717, guid: 0fbcf048acf530e46a5ee63fc7cea0a0, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -75276,7 +75286,7 @@ PrefabInstance:
     - target: {fileID: 1097451556288829951, guid: 7de500f3c72ae4148b1b4e7043d2d520, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 298533710}
+      objectReference: {fileID: 1688252103}
     - target: {fileID: 1097451556290002715, guid: 7de500f3c72ae4148b1b4e7043d2d520, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -75783,7 +75793,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
