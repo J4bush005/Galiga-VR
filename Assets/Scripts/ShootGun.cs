@@ -8,6 +8,7 @@ public class ShootGun : MonoBehaviour
     public GameObject gun;
     public GameObject Laser;
     public Transform barrelLocation;
+    public float bullets = 15.0f;
     public float shootPower;
 
     //public ActionBasedController controller; // The XR controller for the Oculus controller
@@ -26,7 +27,11 @@ public class ShootGun : MonoBehaviour
     public void FireBullet()
     {
         Instantiate(Laser, barrelLocation.position, barrelLocation.rotation * Quaternion.Euler(90f, 0f, 0f)).GetComponent<Rigidbody>().AddForce(barrelLocation.forward * shootPower);
- 
+        bullets--;
+        if(bullets <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
 
