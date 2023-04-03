@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1710615310863587355}
         m_TargetAssemblyTypeName: ShootGun, Assembly-CSharp
         m_MethodName: FireBullet
         m_Mode: 1
@@ -268,4 +268,5 @@ MonoBehaviour:
   gun: {fileID: 0}
   Laser: {fileID: 7268352459918330442, guid: 9e2955b671a7a5b4e943b36fc7fc9aa5, type: 3}
   barrelLocation: {fileID: 0}
+  bullets: 15
   shootPower: 4000
