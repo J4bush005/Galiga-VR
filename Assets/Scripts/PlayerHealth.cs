@@ -26,7 +26,7 @@ public class PlayerHealth : MonoBehaviour
     void OnTriggerEnter(Collider collision)
     {
 
-            if(collision.gameObject.CompareTag("Bullet"))
+            if(collision.gameObject.CompareTag("Laser"))
             {
                 currentHealth--;
                 Destroy(collision.gameObject);
