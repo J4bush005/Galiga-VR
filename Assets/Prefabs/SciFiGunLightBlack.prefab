@@ -1,5 +1,50 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4063019790818058954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2847145144687248170}
+  - component: {fileID: 3474301732473325114}
+  m_Layer: 0
+  m_Name: point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2847145144687248170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4063019790818058954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.47, y: 0.1518, z: 0.3864}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7410688936780195500}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3474301732473325114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4063019790818058954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.077305794, y: 0.06550503, z: 0.07317066}
+  m_Center: {x: 0.4613471, y: -0.104482174, z: 0.30289555}
 --- !u!1 &7410688936780251834
 GameObject:
   m_ObjectHideFlags: 0
@@ -33,7 +78,8 @@ Transform:
   m_LocalPosition: {x: -8.472161, y: 2.0237794, z: 5.4314585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2847145144687248170}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -165,7 +211,7 @@ MonoBehaviour:
   m_Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1605771158027780144}
         m_TargetAssemblyTypeName: ShootGun, Assembly-CSharp
         m_MethodName: FireBullet
         m_Mode: 1
@@ -265,7 +311,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9446de3734fde8c4a8e6fa9bb6482c91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gun: {fileID: 0}
+  gun: {fileID: 7410688936780251834}
   Laser: {fileID: 7268352459918330442, guid: 9e2955b671a7a5b4e943b36fc7fc9aa5, type: 3}
-  barrelLocation: {fileID: 0}
+  barrelLocation: {fileID: 2847145144687248170}
+  bullets: 15
   shootPower: 4000

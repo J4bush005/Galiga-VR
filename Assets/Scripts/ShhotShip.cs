@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class ShhotShip : MonoBehaviour
 {
-    public GameObject bulletPrefab; // reference to the bullet prefab
+    public GameObject ship;
+    public GameObject Laser; // reference to the bullet prefab
     public float fireInterval = 2f; // interval between bullet fires
     public float bulletSpeed = 10f; // speed of the fired bullet
+    public Transform barrelLocation;
 
     private float timeUntilNextFire;
 
@@ -22,9 +24,7 @@ public class ShhotShip : MonoBehaviour
 
     void FireBullet()
     {
-        Vector3 bulletDirection = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f) * Vector3.forward;
-        GameObject bulletObject = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-        Rigidbody bulletRigidbody = bulletObject.GetComponent<Rigidbody>();
-        bulletRigidbody.velocity = bulletDirection * bulletSpeed;
+
+        Instantiate(Laser, barrelLocation.position, barrelLocation.rotation * Quaternion.Euler(90f, 0f, 0f)).GetComponent<Rigidbody>().AddForce(barrelLocation.forward * bulletSpeed);
     }
 }
