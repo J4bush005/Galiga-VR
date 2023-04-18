@@ -5,11 +5,12 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class DestroyContact : MonoBehaviour
 {
     public float lives = 3f;
     public float score = 0;
-    public float newSpeed = 90f;
+    public float newSpeed = 10f;
     public MoveForward speedObject;
     // Start is called before the first frame update
     void Start()
@@ -33,13 +34,13 @@ public class DestroyContact : MonoBehaviour
             {
                 Destroy(gameObject);
                 Destroy(collision.gameObject);
-                score += 1000;
-                Console.WriteLine(score);
+                score += 100;
             }
-            if(score % 100 == 0)
+            if(score % 1000 == 0)
             {
-                newSpeed += speedObject.speed;
-                Console.WriteLine(newSpeed);
+                MoveForward move = gameObject.GetComponent<MoveForward>();
+                move.speed += newSpeed;
+                
             }
         }
     }
