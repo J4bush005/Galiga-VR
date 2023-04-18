@@ -40,8 +40,18 @@ public class DestroyContact : MonoBehaviour
             {
                 MoveForward move = gameObject.GetComponent<MoveForward>();
                 move.speed += newSpeed;
+                spawnAttacker();
                 
             }
         }
+    }
+
+    void spawnAttacker()
+    {
+        GameObject[] shipPrefabs;
+        spawnRangeX = 50f;
+        spawnPosZ = -200f;
+        spawnTimer = 0.0f;
+        spawnDelay = 10.0f;
     }
 }
