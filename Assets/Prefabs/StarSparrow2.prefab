@@ -105,6 +105,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 3
+  score: 0
+  newSpeed: 90
+  speedObject: {fileID: -8866019860773904102}
 --- !u!1 &2959277708691999718
 GameObject:
   m_ObjectHideFlags: 0
