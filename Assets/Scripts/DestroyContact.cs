@@ -1,17 +1,19 @@
-using System;
+//using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
+
 
 
 public class DestroyContact : MonoBehaviour
 {
     public float lives = 3f;
     public float score = 0;
-    public float newSpeed = 10f;
+    public float newSpeed = 0.5f;
     public MoveForward speedObject;
+    GameObject[] attackerPrefabs;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,10 +50,11 @@ public class DestroyContact : MonoBehaviour
 
     void spawnAttacker()
     {
-        GameObject[] shipPrefabs;
-        spawnRangeX = 50f;
-        spawnPosZ = -200f;
-        spawnTimer = 0.0f;
-        spawnDelay = 10.0f;
+        float spawnRangeX = 50f;
+        float spawnPosZ = -200f;
+        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 30, spawnPosZ);
+        int shipIndex = Random.Range(0, attackerPrefabs.Length);
+        Instantiate(attackerPrefabs[shipIndex], spawnPos, attackerPrefabs[shipIndex].transform.rotation);
+        
     }
 }

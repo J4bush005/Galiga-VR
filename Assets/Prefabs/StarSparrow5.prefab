@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lives: 3
   score: 0
-  newSpeed: 90
+  newSpeed: 2
   speedObject: {fileID: -6084220837704702487}
 --- !u!1001 &938870517048608007
 PrefabInstance:
