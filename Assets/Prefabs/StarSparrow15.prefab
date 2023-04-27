@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 716325742855810909}
   m_Layer: 0
   m_Name: StarSparrow15
-  m_TagString: Untagged
+  m_TagString: Ship
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
