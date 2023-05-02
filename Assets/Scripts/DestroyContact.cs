@@ -3,18 +3,23 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 
 
 public class DestroyContact : MonoBehaviour
 {
+  
     public float lives = 3f;
     public float score = 0;
     public float newSpeed = 20f;
     public MoveForward speedObject;
     GameObject[] attackerPrefabs;
     GameObject[] gameObjectsToTarget;
+    public Text ScoreTexts;
+
+ 
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +45,8 @@ public class DestroyContact : MonoBehaviour
                 Destroy(gameObject);
                 Destroy(collision.gameObject);
                 score++;
+                ScoreTexts.text = score.ToString();
+
             }
             if (score % 5 == 0)
             {
@@ -51,6 +58,7 @@ public class DestroyContact : MonoBehaviour
 
                 }
             }
+   
         }
 
         void spawnAttacker()
